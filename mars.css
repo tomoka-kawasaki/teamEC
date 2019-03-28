@@ -1,0 +1,125 @@
+@CHARSET "UTF-8";
+#main{
+	font-family: 'メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+    margin:0 auto;
+    width:90%;
+    margin-top:50px;
+    margin-bottom:50px;
+    text-align:center;
+    line-height:1.6;
+    letter-spacing:1px;
+}
+
+h1{
+		width: 90%;
+	    margin: 0 auto;
+	    margin-top: 30px;
+	    margin-bottom: 70px;
+		text-align: center;
+		border-top: 1.5px solid #323232;
+	    border-bottom: 1.5px solid #323232;
+	    font-weight: 300;
+	 }
+
+/*** エラーメッセージ ***/
+.error
+{
+    font-size: 12px;
+
+    display: inline-block;
+
+    width: 85%;
+    margin: 3px 0;
+    padding: 10px 0;
+
+    text-align: center;
+
+    color: red;
+    border: 1px solid #d8000c;
+    background-color: #fee;
+}
+
+.info{
+        width: 85%;
+        font-size: 12px;
+        margin: 0 auto;
+        margin-top: 30px;
+        padding: 10px 0;
+        margin-bottom: 70px;
+        text-align: center;
+        background-color: #dcdcdc;
+        border: 1px solid #323232;
+        font-weight: 300;
+}
+
+.complete{
+	margin: 0 auto;
+	width:80%;
+	height:40px;
+	background-color: #dff2bf;
+	border:solid 1px #008001;
+	color:#008001;
+	font-size:17px;
+	text-align:center;
+	line-height:40px;
+}
+
+.submit_btn{
+width: 90px;
+height: 50px;
+background-color:#323232;
+color:white;
+border:0;
+}
+.submit_btn:hover {
+  background-color: #59b1eb;
+}
+
+.t1{
+	margin:10px auto;
+	width:90%;
+	border:solid 1px #cbcbcb;
+	border-collapse: collapse;
+}
+.t1 tr th{
+	border:solid 1px #cbcbcb;
+	background-color:#323232;
+	text-align:left;
+	padding-left:20px;
+	color:white;
+	height:40px;
+	width:35%;
+}
+
+.t1 tr td{
+	text-align:left;
+	border:solid 1px #cbcbcb;
+	padding-left:20px;
+	font-size:18px;
+	width:65%;
+}
+
+.textfield{
+	width:90%;
+	height:25px;
+	font-size:20px;
+}
+
+/* カート・商品購入履歴テーブル */
+.horizontal-list-table{
+	 font-size: 80%;
+	 width: 90%;
+	 margin: 0 auto;
+	 margin-bottom: 30px;
+	 border-collapse: collapse;
+	 border: solid 1px #d3d3d3;
+}
+.horizontal-list-table th{
+	 color: white;
+	 background-color: #323232;
+}
+.horizontal-list-table th,td{
+	 border: solid 1px #d3d3d3;
+	 padding: 8px 15px;
+}
+
